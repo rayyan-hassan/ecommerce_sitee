@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart - Rocho.com</title>
+  <link rel="stylesheet" href="cart.css" />
+</head>
+<body>
+
+  <!-- ✅ Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo-container">
+        <img src="/pics/WhatsApp Image 2025-07-09 at 17.58.55_f03b2837.jpg" alt="Rocho Logo" class="logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="/main/indix.html">Home</a></li>
+        <li><a href="/about/about.html">About</a></li>
+        <li><a href="/prodoct/products.html">Products</a></li>
+        <li><a href="/cart/cart.html" class="active">Cart</a></li>
+        <li><a href="/signup/signup.html">Sign Up</a></li>
+        <li><a href="/login/login.html">Login</a></li>
+        <li><a href="/contact/contact.html">Contact</a></li>
+      </ul>
+      <form action="https://www.google.com/search" method="get" class="search-form">
+        <input type="text" name="q" placeholder="Search...">
+        <button type="submit">Search</button>
+      </form>
+    </nav>
+  </header>
+
+  <!-- ✅ Cart Section -->
+  <main>
+    <section class="welcome-section">
+      <h1>Your Shopping Cart</h1>
+      <p>Review your selected items and proceed to checkout. You can adjust quantity, remove products or save for later.</p>
+    </section>
+
+    <section class="products-grid">
+      <div class="product-card">
+        <img src="/pics/c1.jpg" alt="Smart Watch">
+        <p>Smart Watch</p>
+        <p><strong>Price:</strong> $59.99</p>
+        <input type="number" value="1" min="1">
+        <button class="buy-btn">Remove</button>
+      </div>
+
+      <div class="product-card">
+        <img src="/pics/c2.jpg" alt="Headphones">
+        <p>Wireless Headphones</p>
+        <p><strong>Price:</strong> $89.99</p>
+        <input type="number" value="1" min="1">
+        <button class="buy-btn">Remove</button>
+      </div>
+
+      <div class="product-card">
+        <img src="/pics/c3.jpg" alt="Backpack">
+        <p>Travel Backpack</p>
+        <p><strong>Price:</strong> $39.99</p>
+        <input type="number" value="1" min="1">
+        <button class="buy-btn">Remove</button>
+      </div>
+
+      <div class="product-card">
+        <img src="/pics/c4.jpg" alt="Laptop">
+        <p>14" Slim Laptop</p>
+        <p><strong>Price:</strong> $599.99</p>
+        <input type="number" value="1" min="1">
+        <button class="buy-btn">Remove</button>
+      </div>
+    </section>
+
+    <section class="summary-section">
+      <h2>Total: $789.96</h2>
+      <button class="buy-btn">Proceed to Checkout</button>
+    </section>
+  </main>
+
+  <!-- ✅ Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Rocho.com — All Rights Reserved</p>
+      <p>Designed with ❤️ in Pakistan</p>
+    </div>
+  </footer>
+
+</body>
+</html>
